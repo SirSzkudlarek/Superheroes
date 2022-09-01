@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+    .main-wrapper {
+        display:flex;
+        flex-direction: column;
+        max-width: 500px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .Soldierboy-img {
+            width: 450px;
+            height: auto;
+            border-radius: 50%;
+            border: 2px solid black;
+            box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.316);
+        }
+
+        .Soldierboy-heading {
+            text-decoration: underline rgb(13, 128, 34);
+        } 
